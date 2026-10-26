@@ -37,8 +37,8 @@
 
 
   const CONFIG = {
-    groom: "Rakshith Kumar J",
-    bride: "Divyashree Amin",
+    groom: "Rakshith",
+    bride: "Divyashree",
     date: "2 December 2026",
     time: "10:00 AM onwards",
     event: "Engagement Ceremony",
