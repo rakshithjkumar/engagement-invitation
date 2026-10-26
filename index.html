@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8e8e8">
+  <title>Rakshith & Divyashree — Engagement Invitation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="petal-field" id="petalField" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="monogram" href="#cover" aria-label="Back to invitation cover">W<span>&</span>W</a>
+  </header>
+
+  <main id="invitation">
+    <section class="scene cover active" id="cover" data-scene="0" aria-label="Engagement invitation cover">
+      <div class="ornament ornament-top" aria-hidden="true">❧ ❦ ❧</div>
+      <div class="cover-frame">
+        <div class="eyebrow reveal">WITH THE BLESSINGS OF OUR FAMILIES</div>
+        <div class="tiny-flourish reveal" aria-hidden="true">✧</div>
+        <p class="script intro reveal">with joyful hearts,</p>
+        <h1 class="couple-names reveal"><span data-edit="groom">Rakshith Kumar J</span><span class="ampersand">&</span><span data-edit="bride">Divyashree Amin</span></h1>
+        <div class="gold-rule reveal"><span>✦</span></div>
+        <p class="cover-copy reveal">invite you to celebrate<br>our engagement</p>
+        <p class="date-line reveal" data-edit="date">2 December 2026</p>
+        <button class="ribbon-button reveal" id="openInvitation" type="button" aria-label="Untie the ribbon and open invitation">
+          <span class="ribbon-band ribbon-band-vertical"></span>
+          <span class="ribbon-band ribbon-band-horizontal"></span>
+          <span class="ribbon-loop ribbon-loop-left"></span>
+          <span class="ribbon-loop ribbon-loop-right"></span>
+          <span class="ribbon-knot"></span>
+          <span class="ribbon-tail ribbon-tail-left"></span>
+          <span class="ribbon-tail ribbon-tail-right"></span>
+          
+        </button>
+        <p class="ribbon-instruction reveal">Tap the ribbon to begin</p>
+      </div>
+      <div class="bottom-note reveal">A PROMISE OF FOREVER · OUR ENGAGEMENT</div>
+      <div class="scroll-cue" aria-label="Scroll down to continue" title="Scroll down to continue"><span class="scroll-arrow" aria-hidden="true">↓</span></div>
+    </section>
+
+    <section class="scene announcement" id="announcement" data-scene="1" aria-label="Engagement announcement">
+      <div class="section-shell suspense-shell">
+        <div class="suspense-veil" aria-hidden="true"><span>✧</span></div>
+        <p class="eyebrow">A BEAUTIFUL BEGINNING</p>
+        <div class="line-art" aria-hidden="true">❦</div>
+        <h2 class="section-title">Two hearts, one promise.</h2>
+        <p class="body-copy">With the blessings of our families, we invite you to join us as we celebrate the beginning of our forever.</p>
+        <p class="script signature">We would be honoured to have you with us.</p>
+        <div class="corner-flowers" aria-hidden="true">❧</div>
+      </div>
+    </section>
+
+    <section class="scene couple-scene" id="couple" data-scene="2" aria-label="Rakshith Kumar J and Divyashree Amin">
+      <div class="section-shell couple-shell suspense-shell">
+        <div class="suspense-veil" aria-hidden="true"><span>✧</span></div>
+        <p class="eyebrow">THE BEGINNING OF FOREVER</p>
+        <div class="mirror-frame" id="mirrorFrame" aria-label="A misted mirror. Smudge the mirror to reveal the couple's photograph.">
+          <img id="couplePhoto" src="images/1.jpg" alt="Rakshith Kumar J and Divyashree Amin" draggable="false">
+          <canvas id="mirrorFog" aria-label="Smudge the mirror to reveal the photo"></canvas>
+          <div class="mirror-hint" id="mirrorHint">
+            <span class="mirror-sparkle" aria-hidden="true">✧</span>
+            <p>Smudge the mirror</p>
+            <span class="mirror-subhint">Use your finger or mouse to reveal</span>
+          </div>
+        </div>
+        <h2 class="section-title couple-heading"><span data-edit="groom">Rakshith Kumar J</span> <span class="ampersand">&</span> <span data-edit="bride">Divyashree Amin</span></h2>
+        <p class="body-copy narrow">A thousand little moments led us here. We cannot wait to begin this next chapter with you by our side.</p>
+      </div>
+    </section>
+
+    <section class="scene details-scene" id="details" data-scene="3" aria-label="Engagement details">
+      <div class="section-shell details-shell suspense-shell">
+        <div class="suspense-veil" aria-hidden="true"><span>✧</span></div>
+        <p class="eyebrow">PLEASE JOIN US FOR OUR ENGAGEMENT</p>
+        <h2 class="section-title">Our Engagement</h2>
+        <div class="details-card">
+          <div class="detail-icon" aria-hidden="true">✧</div>
+          <p class="detail-label">THE ENGAGEMENT</p>
+          <p class="detail-value" data-edit="event">Engagement Ceremony</p>
+          <div class="detail-divider">✦</div>
+          <p class="detail-value" data-edit="date">2 December 2026</p>
+          <p class="detail-value" data-edit="time">10:00 AM onwards</p>
+          <p class="detail-label venue-label">THE VENUE</p>
+          <p class="detail-value venue-name" data-edit="venue">Vilashree Hall</p>
+          <p class="detail-address" data-edit="address">Kavoor</p>
+          <a class="map-link" id="mapLink" href="https://maps.google.com/?q=Vilashree+Hall+Kavoor" target="_blank" rel="noreferrer">VIEW LOCATION ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="scene celebrations-scene" id="celebrations" data-scene="4" aria-label="Engagement celebration">
+      <div class="section-shell suspense-shell">
+        <div class="suspense-veil" aria-hidden="true"><span>✧</span></div>
+        <p class="eyebrow">A DAY TO TREASURE</p>
+        <h2 class="section-title">The Engagement Day</h2>
+        <div class="event-list">
+          <article class="event-item">
+            <span class="event-number">01</span>
+            <div><h3>Engagement Ceremony</h3><p data-edit="muhurtham">2 December 2026 · 10:00 AM onwards</p></div>
+            <span class="event-flourish" aria-hidden="true">❧</span>
+          </article>
+          <article class="event-item">
+            <span class="event-number">02</span>
+            <div><h3>Family Blessings</h3><p data-edit="lunch">Together with our loved ones</p></div>
+            <span class="event-flourish" aria-hidden="true">❧</span>
+          </article>
+          <article class="event-item">
+            <span class="event-number">03</span>
+            <div><h3>Celebration</h3><p data-edit="reception">Vilashree Hall · Kavoor</p></div>
+            <span class="event-flourish" aria-hidden="true">❧</span>
+          </article>
+        </div>
+        <p class="body-copy">Your presence and blessings would mean the world to us.</p>
+      </div>
+    </section>
+
+    <section class="scene closing-scene" id="closing" data-scene="5" aria-label="Closing invitation">
+      <div class="closing-frame suspense-shell">
+        <div class="suspense-veil" aria-hidden="true"><span>✧</span></div>
+        <p class="eyebrow">WITH LOVE AND GRATITUDE</p>
+        <div class="closing-flower" aria-hidden="true">❦</div>
+        <h2 class="section-title">Join us as our forever begins.</h2>
+        <p class="script signature">With love,</p>
+        <p class="closing-names"><span data-edit="groom">Rakshith Kumar J</span> <span class="ampersand">&</span> <span data-edit="bride">Divyashree Amin</span></p>
+        <div class="gold-rule"><span>✦</span></div>
+        <p class="closing-date" data-edit="date">2 December 2026</p>
+        <button class="restart-button" id="restartInvitation" type="button">REVISIT OUR INVITATION ↗</button>
+      </div>
+      <footer>WITH LOVE · OUR FOREVER BEGINS HERE</footer>
+    </section>
+  </main>
+
+  <nav class="scene-nav" aria-label="Invitation sections">
+    <button type="button" data-target="0" class="nav-dot current" aria-label="Cover"></button>
+    <button type="button" data-target="1" class="nav-dot" aria-label="Announcement"></button>
+    <button type="button" data-target="2" class="nav-dot" aria-label="Couple"></button>
+    <button type="button" data-target="3" class="nav-dot" aria-label="Engagement details"></button>
+    <button type="button" data-target="4" class="nav-dot" aria-label="Celebrations"></button>
+    <button type="button" data-target="5" class="nav-dot" aria-label="Closing"></button>
+  </nav>
+
+  <div class="story-controls" aria-label="Story playback controls">
+    <button id="prevScene" type="button" aria-label="Previous section">←</button>
+    <span id="sceneCounter">01 / 06</span>
+    <button id="nextScene" type="button" aria-label="Next section">→</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
